@@ -71,7 +71,7 @@ class MyHomePageState extends State<MyHomePage> {
         body: ListView(
       children: <Widget>[
         Container(
-          padding: const EdgeInsets.all(20),
+          padding: const EdgeInsets.all(0),
           child: Center(
               child: Stack(
             fit: StackFit.passthrough,
@@ -156,7 +156,7 @@ class MyHomePageState extends State<MyHomePage> {
           )),
         ),
         Container(
-          padding: const EdgeInsets.all(20),
+          padding: const EdgeInsets.all(0),
           child: Center(
               child: Stack(
             fit: StackFit.passthrough,
@@ -241,7 +241,7 @@ class MyHomePageState extends State<MyHomePage> {
           )),
         ),
         Container(
-          padding: const EdgeInsets.all(20),
+          padding: const EdgeInsets.all(0),
           child: Center(
               child: Stack(
             fit: StackFit.passthrough,
